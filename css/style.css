@@ -1,0 +1,76 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+.hero {
+  padding-top: 100px;
+}
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-date {
+  font-size: 18px;
+}
+.hero-name {
+  font-size: 39px;
+  font-weight: 700;
+  padding: 10px 0;
+}
+.hero-position {
+  font-size: 24px;
+  color: #e3e3e3;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.hero-desc {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.hero-desc span {
+  color: #FFD940;
+}
+.hero-avatar {
+  width: 250px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 50%;
+  background-image: url('../img/avatar.jpg');
+  background-size: 120%;
+  background-position: top left -10px;
+  border: 10px solid #FFD940;
+}
+.contact {
+  padding-top: 50px;
+  text-align: center;
+  line-height: 1.5;
+}
+.contact-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+.contact-social {
+  font-size: 20px;
+  font-weight: 400;
+}
+.contact-social span {
+  font-weight: 700;
+  color: #FFD940;
+}
+.education {
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+.education .about {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
